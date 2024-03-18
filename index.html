@@ -5,14 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/output.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Hot Burguer: Hamburgueria Gourmet"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:description" content="O melhor hamburguer artesanal da cidade"/>
+        <meta property="og:site_name" content="Hot Burguer"/>
+
 
     <title>Hot Burguer: Hamburgueria Gourmet</title>
 
@@ -28,7 +37,7 @@
 
             <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Hot Burguer</h1>
 
-            <span class="text-white font-medium">Rua Itália nº10, Regente Feijó - SP </span>
+            <span class="text-white font-medium">Rua Itália nº 1, Pres.Prudente - SP </span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
                 <span class="text-white font-medium">Seg á Dom - 18:00 as 23:00</span>
@@ -45,16 +54,16 @@
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <div class="flex gap-2">
-                <img src="./assets/hamb-1.png" alt="Hamburguer Smash"
+                <img src="./assets/hamb-1.png" alt="Hambúrguer Duplo"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div>
-                    <p class="font-bold">Hamburguer Smash</p>
-                    <p class="text-sm">Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e
-                        maionese da casa</p>
+                    <p class="font-bold">Hambúrguer Duplo</p>
+                    <p class="text-sm">Pão artesanal com gergelim, dois hambúrgueres suculentos de 160g cada, queijo
+                        derretido, tiras de bacon, alface fresca e cebola branca.</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 18.90</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hamburgueer Smash"
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Duplo"
                             data-price="18.90">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
@@ -68,16 +77,16 @@
 
 
             <div class="flex gap-2">
-                <img src="./assets/hamb-2.png" alt="Hamburguer Duplo"
+                <img src="./assets/hamb-2.png" alt="Hambúrguer Bacon"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div>
-                    <p class="font-bold">Hamburguer Duplo</p>
-                    <p class="text-sm">Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e
-                        maionese da casa</p>
+                    <p class="font-bold">Hambúrguer Bacon</p>
+                    <p class="text-sm">Pão dourado, carne suculenta, queijo derretido, bacon crocante, tomate fresco e
+                        batatas fritas crocantes ao lado.</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 32.90</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hamburgueer Duplo"
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Bacon"
                             data-price="32.90">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
@@ -91,16 +100,16 @@
 
 
             <div class="flex gap-2">
-                <img src="./assets/hamb-3.png" alt="Hamburguer Salad"
+                <img src="./assets/hamb-3.png" alt="Hambúrguer Toast"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div>
-                    <p class="font-bold">Hamburguer Salad</p>
-                    <p class="text-sm">Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e
-                        maionese da casa</p>
+                    <p class="font-bold">Hambúrguer Toast</p>
+                    <p class="text-sm">Pão brilhante e fresco, duplo hambúrguer grelhado, camadas generosas de queijo
+                        derretido. </p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 35.90</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hamburgueer Salad"
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Toast"
                             data-price="35.90">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
@@ -117,17 +126,112 @@
 
 
             <div class="flex gap-2">
-                <img src="./assets/hamb-4.png" alt="Hamburguer da casa"
+                <img src="./assets/hamb-4.png" alt="Hamburguer Clássico"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div>
-                    <p class="font-bold">Hamburguer da casa</p>
-                    <p class="text-sm">Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e
-                        maionese da casa</p>
+                    <p class="font-bold">Hamburguer Clássico</p>
+                    <p class="text-sm">Pão com gergelim, alface fresca, tomate, cebola, picles e um suculento frango
+                        crocante, acompanhado de molho cremoso.</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 30.00</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hamburgueer da casa"
-                            data-price="30.00">
+                        <p class="font-bold text-lg">R$ 29.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hamburguer Clássico"
+                            data-price="29.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="flex gap-2">
+                <img src="./assets/hamb-5.png" alt="Hambúrguer Press"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Hambúrguer Press</p>
+                    <p class="text-sm">Pão com gergelim, alface crocante, tomate, queijo derretido, hambúrguer de carne
+                        bem cozido e batatas fritas.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 37.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Press"
+                            data-price="37.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="flex gap-2">
+                <img src="./assets/hamb-6.png" alt="Hambúrguer Supremo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Hambúrguer Supremo</p>
+                    <p class="text-sm">Pão de fermentação natural tostado, hambúrguer de picanha 160g, queijo colby e
+                        maionese de chipotle.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 39.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Supremo"
+                            data-price="39.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="flex gap-2">
+                <img src="./assets/hamb-7.png" alt="Hambúrguer Sear"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Hambúrguer Sear</p>
+                    <p class="text-sm">Pão macio com gergelim, hambúrguer de carne bem temperado, queijo derretido,
+                        anéis de cebola crocantes e chili.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Sear"
+                            data-price="26.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/hamb-8.png" alt="Hambúrguer Salad"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Hambúrguer Salad</p>
+                    <p class="text-sm">Pão dourado e brilhante, hambúrguer vegetariano verde, alface, cenoura e
+                        beterraba julienne.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 25.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Hambúrguer Salad"
+                            data-price="25.90">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
 
@@ -141,8 +245,73 @@
 
         </main>
 
+
+
         <div class="mx-auto max-w-7xl px-2 my-2">
-            <h2 class="font-bold text text-3xl">Bebidas</h2>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Porções</h2>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+
+            <div class="flex gap-2">
+                <img src="./assets/porc-1.jpeg" alt="Porção Cheddar Bacon Crisp"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Porção Cheddar Bacon Crisp</p>
+                    <p class="text-sm">Batatas onduladas com cheddar derretido, bacon crocante e cebolinha, acompanhadas
+                        de molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 19.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn "
+                            data-name="Porção Cheddar Bacon Crisp" data-price="19.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="flex gap-2">
+                <img src="./assets/porc-2.jpeg" alt="Porção Batata Frita Cheddar e Bacon"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
+                <div>
+                    <p class="font-bold">Porção Batata Frita Cheddar e Bacon</p>
+                    <p class="text-sm"> Batatas crocantes com cobertura de cheddar derretido e bacon, servidas com molho
+                        cremoso especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 17.90</p>
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn "
+                            data-name="Porção Batata Frita Cheddar e Bacon" data-price="17.90">
+                            <i class="fa fa-cart-plus text-lg text-white "></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+
+            <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Bebidas</h2>
 
         </div>
 
@@ -150,14 +319,14 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
 
             <div class="flex gap-2 w-full">
-                <img src="./assets/refri-1.png" alt="Coca lata"
+                <img src="./assets/refri-1.png" alt="Coca-Cola lata"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div class="w-full">
-                    <p class="font-bold">Coca lata</p>
+                    <p class="font-bold">Coca-Cola lata</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 6.00</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Coca lata"
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Coca-Cola lata"
                             data-price="6.00">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
@@ -171,14 +340,14 @@
 
 
             <div class="flex gap-2 w-full">
-                <img src="./assets/refri-2.png" alt="Guarana lata"
+                <img src="./assets/refri-2.png" alt="Guaraná Antarctica lata"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 " />
                 <div class="w-full">
-                    <p class="font-bold">Guaraná lata</p>
+                    <p class="font-bold">Guaraná Antarctica lata</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 6.00</p>
-                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Guarana lata"
+                        <button class="bg-gray-900 px-5 rounded  add-to-cart-btn " data-name="Guaraná Antarctica lata"
                             data-price="6.00">
                             <i class="fa fa-cart-plus text-lg text-white "></i>
                         </button>
@@ -206,7 +375,8 @@
 
             <p class="font-bold">Endereço de entrega:</p>
 
-            <input type="text" placeholder="Digite seu endereço completo..." id="address" class="w-full border-2 p-1 rounded my-1"/>
+            <input type="text" placeholder="Digite seu endereço completo..." id="address"
+                class="w-full border-2 p-1 rounded my-1" />
 
 
             <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
